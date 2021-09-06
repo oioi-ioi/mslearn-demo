@@ -16,4 +16,6 @@ def fibonacci_like(n):
     elif n == 2:
         return 3    
     else:
-        return fibonacci_like(n - 3) + fibonacci_like(n - 2) + fibonacci_like(2 - 1)   
+        return fibonacci_like(n - 3) + fibonacci_like(n - 2) + fibonacci_like(n - 1)   
+
+#def binomial(n,k):
