@@ -19,3 +19,8 @@ def fibonacci_like(n):
         return fibonacci_like(n - 3) + fibonacci_like(n - 2) + fibonacci_like(n - 1)   
 
 #def binomial(n,k):
+
+from scipy.special import comb
+
+def binomial(n,k):
+    return comb(n,k)
